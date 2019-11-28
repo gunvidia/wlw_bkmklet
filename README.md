@@ -10,5 +10,5 @@ javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdeliv
 <br><br>
 * 対戦履歴ページで起動するやつ～
 ```
-準備中
+javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gunvidia/wlw_bkmklet/match_rslt.js';d.body.appendChild(s);})(document)
 ```
