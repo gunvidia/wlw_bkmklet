@@ -21,7 +21,7 @@
 
 	return t.each(n,function(){t.merge(a,t("."+this))}),a}(["block_matchlog_match","block_matchlog_ballroom","block_matchlog_astrology"]);
 	t.each(n,function(){!function(n,a){
-	t("<div><div>勝率:"+(a.win_num/a.play_times*100).toFixed(1)+"%</div><input type=button style="btnstyle"value='キャスト別対戦成績を表示' /></div>").on(
+	t("<div><div>勝率:"+(a.win_num/a.play_times*100).toFixed(1)+"%</div><input type=button style='${btnstyle}' value='キャスト別対戦勝率を表示' /></div>").on(
 		"click","input",function(){
 			t(this).prop("disabled",!0),function(n,a,e,i){
 	for(var r=[],o=0;o<i;o++)
