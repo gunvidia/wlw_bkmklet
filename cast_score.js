@@ -8,8 +8,8 @@ var data1 = document.querySelectorAll('.block_playdata_01_text');
 var data2 = document.querySelectorAll('.block_playdata_02_text');
  
 // キャスト別戦跡詳細ページ以外での起動はエラー
-if(data1.length==0 || data2.length==0) {
-     alert("※キャスト別戦跡詳細ページで実行して下さい※");
+if(!/^https:\/\/wonderland-wars.net\/castdetail.html$/.test(location.href)) {
+     return alert("※キャスト別戦跡詳細ページで実行して下さい※");
 }
  
 // 勝利数・敗北数・勝率
