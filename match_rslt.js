@@ -36,7 +36,7 @@
 		case"astrology":e=".block_astrology_log",i=".astrology_icon>img",r=".astrology_my_team > .match_member > img:eq(0)";
 		break;
 
-		case"training":e=".block_match_log2",i=".match_icon2>img",r=".match_my_team > .match_member > img:eq(0)";
+		case"romance":e=".block_match_log2",i=".match_icon2>img",r=".match_my_team > .match_member > img:eq(0)";
 		break;
 
 		default:a=function(){
