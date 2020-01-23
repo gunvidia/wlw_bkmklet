@@ -1,6 +1,6 @@
 /*
  * @title   .NET 対戦履歴勝率
- * @upddate 2019/09/10
+ * @upddate 2020/01/23
  */
 
 !function(t){
@@ -18,7 +18,7 @@
 (function(t){
 	var n=function(n){var a=[];
 
-	return t.each(n,function(){t.merge(a,t("."+this))}),a}(["block_matchlog_match","block_matchlog_astrology2"]);
+	return t.each(n,function(){t.merge(a,t("."+this))}),a}(["block_matchlog_match","block_matchlog_astrology2","block_matchlog_concert"]);
 	t.each(n,function(){!function(n,a){
 	t("<div><div>勝率:"+(a.win_num/a.play_times*100).toFixed(1)+"%</div><input type=button style='color:#fff;background-color:#f06d;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;' value='キャスト別対戦勝率を表示' /></div>").on(
 		"click","input",function(){
@@ -30,14 +30,11 @@
 		switch(n){case"all":e=".block_match_log",i=".match_icon>img",r=".match_my_team > .match_member > img:eq(0)";
 		break;
 
-		case"bb":e=".block_ball_log",i=".ball_icon>img",r=".ball_my_team > .match_member > img:eq(0)";
-		break;
-
-		case"astrology":e=".block_astrology_log",i=".astrology_icon>img",r=".astrology_my_team > .match_member > img:eq(0)";
-		break;
-
 		case"astrologyv":e=".block_match_log",i=".match_icon>img",r=".match_my_team > .match_member > img:eq(0)";
 		break;
+				
+		case"concert":e=".block_match_log",i=".match_icon>img",r=".match_my_team > .match_member > img:eq(0)";
+		break;				
 
 		default:a=function(){
 			alert("Error: URLパラメータ(type = "+n+")")}}return a||(a=function(n){var a=t.parseHTML(n),o=[];
