@@ -1,7 +1,10 @@
 # wlw_bkmklet
 
-2019/11/28現在  
-⇒とりあえず自分用　readmeなんて書いてる暇ねぇ!  
+2019/11/28
+⇒とりあえず自分用　readmeなんて書いてる暇ねぇ!
+
+2020/01/30
+⇒星占演儀及び協奏闘技場したverを掲載
 
 * キャスト別プレイデータで起動するやつ～
 ```
@@ -11,4 +14,10 @@ javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdeliv
 * 対戦履歴ページで起動するやつ～
 ```
 javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gunvidia/wlw_bkmklet/match_rslt.js';d.body.appendChild(s);})(document)
+```
+
+<br><br>
+* 星占演儀及び協奏闘技場したverを強制実行
+```
+javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gunvidia/wlw_bkmklet@f8a3a1f/match_rslt.js';d.body.appendChild(s);})(document)
 ```
