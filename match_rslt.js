@@ -33,7 +33,7 @@
 		case"astrologyv":e=".block_match_log",i=".match_icon>img",r=".match_my_team > .match_member > img:eq(0)";
 		break;
 				
-		case"concert":e=".block_concert_log",i=".concert_icon>img",r=".concert_my_team > .concert_member > img:eq(0)";
+		case"concert":e=".block_concert_log",i=".concert_icon>img",r=".concert_my_team > .match_member > img:eq(0)";
 		break;				
 
 		default:a=function(){
