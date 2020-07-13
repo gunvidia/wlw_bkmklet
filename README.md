@@ -17,7 +17,7 @@ javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdeliv
 ```
 
 <br><br>
-* 星占演儀及び協奏闘技場したverを強制実行
+* 星占演儀及び協奏闘技場及び舞闘会したverを強制実行
 ```
-javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gunvidia/wlw_bkmklet@f8a3a1f/match_rslt.js';d.body.appendChild(s);})(document)
+javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gunvidia/wlw_bkmklet@10797aa/match_rslt.js';d.body.appendChild(s);})(document)
 ```
