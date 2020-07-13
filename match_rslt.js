@@ -29,6 +29,9 @@
 		t.when.apply(t,r).done(function(){var a=function(n){var a=void 0,e=void 0,i=void 0,r=void 0;
 		switch(n){case"all":e=".block_match_log",i=".match_icon>img",r=".match_my_team > .match_member > img:eq(0)";
 		break;
+				
+		case"ballroom":e=".block_match_log",i=".match_icon>img",r=".ball_my_team > .match_member > img:eq(0)";
+		break;				
 
 		case"astrologyv":e=".block_match_log",i=".match_icon>img",r=".match_my_team > .match_member > img:eq(0)";
 		break;
