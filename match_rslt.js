@@ -18,7 +18,7 @@
 (function(t){
 	var n=function(n){var a=[];
 
-	return t.each(n,function(){t.merge(a,t("."+this))}),a}(["block_matchlog_match","block_matchlog_astrology2","block_matchlog_concert"]);
+	return t.each(n,function(){t.merge(a,t("."+this))}),a}(["block_matchlog_match","block_matchlog_ballroom","block_matchlog_astrology2","block_matchlog_concert"]);
 	t.each(n,function(){!function(n,a){
 	t("<div><div>勝率:"+(a.win_num/a.play_times*100).toFixed(1)+"%</div><input type=button style='color:#fff;background-color:#f06d;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;' value='キャスト別対戦勝率を表示' /></div>").on(
 		"click","input",function(){
