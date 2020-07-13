@@ -6,6 +6,9 @@
 2020/01/30
 ⇒星占演儀及び協奏闘技場したverを掲載
 
+2020/07/13
+⇒舞踏会対応
+
 * キャスト別プレイデータで起動するやつ～
 ```
 javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gunvidia/wlw_bkmklet/cast_score.js';d.body.appendChild(s);})(document)
@@ -17,7 +20,7 @@ javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdeliv
 ```
 
 <br><br>
-* 星占演儀及び協奏闘技場及び舞闘会したverを強制実行
+* 星占演儀及び協奏闘技場及び舞闘会対応したverを強制実行
 ```
 javascript:(function(d,s){s=d.createElement('script');s.src='https://cdn.jsdelivr.net/gh/gunvidia/wlw_bkmklet@10797aa/match_rslt.js';d.body.appendChild(s);})(document)
 ```
