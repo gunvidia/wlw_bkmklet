@@ -30,7 +30,7 @@
 		switch(n){case"all":e=".block_match_log",i=".match_icon>img",r=".match_my_team > .match_member > img:eq(0)";
 		break;
 				
-		case"bb":e=".block_match_log",i=".match_icon>img",r=".ball_my_team > .match_member > img:eq(0)";
+		case"bb":e=".block_ball_log",i=".match_icon>img",r=".ball_my_team > .match_member > img:eq(0)";
 		break;				
 
 		case"astrologyv":e=".block_match_log",i=".match_icon>img",r=".match_my_team > .match_member > img:eq(0)";
